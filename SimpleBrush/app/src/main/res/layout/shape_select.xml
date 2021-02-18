@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#009688"
+    android:orientation="vertical"
+    app:layout_behavior="android.support.design.widget.bottomSheetBehavior">
+
+    <TextView
+        android:id="@+id/lineShape"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:text="Line"
+        app:lineHeight="40sp" />
+
+    <TextView
+        android:id="@+id/curvedLineShape"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:text="Curved line"
+        app:lineHeight="40sp" />
+
+    <TextView
+        android:id="@+id/circleShape"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:text="Circle"
+        app:lineHeight="40sp" />
+
+    <TextView
+        android:id="@+id/rectangleShape"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:text="Rectangle"
+        app:lineHeight="40sp" />
+
+    <TextView
+        android:id="@+id/squareShape"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_gravity="start"
+        android:background="#009688"
+        android:gravity="center_vertical"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:text="Square"
+        app:lineHeight="40sp" />
+</LinearLayout>

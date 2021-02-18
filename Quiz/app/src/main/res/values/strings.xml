@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="quizTitle">Simple Quiz</string>
+    <string name="registerLabel">Dont have an account? Register</string>
+    <string name="loginLabel">Already have an account? Login</string>
+    <string name="loginBtnLabel">Login</string>
+    <string name="registerBtnLabel">Register</string>
+    <string name="passwordLabel">password</string>
+    <string name="e_mailLabel">e-mail</string>
+    <string name="select_quiz">Select Quiz</string>
+</resources>

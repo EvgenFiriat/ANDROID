@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#DBD6E4"
+    android:orientation="vertical"
+    tools:viewBindingIgnore="true"
+    >
+    <com.ramotion.fluidslider.FluidSlider
+        android:id="@+id/fluid_slider"
+        style="@style/FluidSliderStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:bar_color="#00BCD4"
+        app:bubble_text_color="#3F51B5"
+        app:start_text=""
+        app:end_text=""
+        app:initial_position="0.25"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/brush_size_cancel_button"
+            android:background="#E91E63"
+            android:backgroundTint="@color/black"
+            app:backgroundTint="#E91E63"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="Cancel"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/brush_size_confirm_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="Apply"/>
+    </LinearLayout>
+
+
+</LinearLayout>

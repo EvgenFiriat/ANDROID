@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/eraser"
+        android:contentDescription="Clear"
+        android:icon="@drawable/ic_eraser"
+        android:title="@string/bottom_bar_menu_clear"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/drawShape"
+        android:contentDescription="Shape select"
+        android:icon="@drawable/ic_shapes"
+        android:title="Shape"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/brushSizePicker"
+        android:contentDescription="Brush size"
+        android:icon="@drawable/ic_brush"
+        android:title="Brush size picker"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/colorPicker"
+        android:contentDescription="Color select"
+        android:icon="@drawable/ic_color_picker"
+        android:title="Color"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/uploadImage"
+        android:contentDescription="Upload"
+        android:icon="@drawable/ic_photo"
+        android:title="Upload"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/save"
+        android:contentDescription="Save"
+        android:icon="@drawable/ic_floppy_disk"
+        android:title="Save Image"
+        app:showAsAction="always"></item>
+</menu>
